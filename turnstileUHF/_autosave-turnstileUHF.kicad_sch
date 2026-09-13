@@ -3870,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Coilcraft_MA5532-AE_RFID"
 			(at 196.85 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +6023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Coilcraft_MA5532-AE_RFID"
 			(at 255.27 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8420,7 +8420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Coilcraft_MA5532-AE_RFID"
 			(at 171.45 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9370,7 +9370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Coilcraft_MA5532-AE_RFID"
 			(at 228.6 130.81 0)
 			(hide yes)
 			(show_name no)
