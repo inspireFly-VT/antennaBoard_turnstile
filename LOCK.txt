@@ -3,9 +3,10 @@ Text file to keep track of LOCKING file when actively working on it, see How to 
 Log Template:
 
 FILE: boardName.kicad_pcb , schematicName.kicad_sch
-LOCKED BY: FULL NAME (PID)
-START: DATE and TIME
-STATUS: List what you are doing
+LOCKED BY: Virginia Nardelli (906597191)
+START: 9/11/2026
+STATUS: added trace antennas and coax links
+
 
 File: Solar board pcb and schematic 
 locked by: Yoshita 
