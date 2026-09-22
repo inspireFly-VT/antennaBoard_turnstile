@@ -2,6 +2,11 @@ Text file to keep track of LOCKING file when actively working on it, see How to 
 
 Log Template:
 
+FILE: turnstileUHF.kicad_pcb , turnstilUHF.kicad_sch
+LOCKED BY: Alex Diarra (906349091)
+START: 9/18/2026
+STATUS: adding integration with flight controller STM MCU & SMA
+
 FILE: boardName.kicad_pcb , schematicName.kicad_sch
 LOCKED BY: Virginia Nardelli (906597191)
 START: 9/11/2026
