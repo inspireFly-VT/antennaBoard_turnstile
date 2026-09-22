@@ -5,146 +5,6 @@
 	(uuid "bb80e4f3-3333-4302-bfd1-5248f999de56")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 3.81 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Coaxial connector; stand-in for short coax cable feed to antenna tape element"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "coaxial connector RF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Antenna"
 			(pin_numbers
 				(hide yes)
@@ -534,390 +394,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_DIP_x04"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x04"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x4*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_DIP_x04_0_0"
-				(circle
-					(center -2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 5.207) (xy 2.3622 6.2484)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 5.08)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x04_0_1"
-				(rectangle
-					(start -3.81 7.62)
-					(end 3.81 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x04_1_1"
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,42 +1795,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+8V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "inspireFly:RFPC-SMA28-F"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+8V"
-				(at 0 3.556 0)
+			(property "Reference" "J"
+				(at -3.81 4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "RFPC-SMA28-F"
+				(at -3.81 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "inspireFly:GRADCONN_RFPC-SMA28-F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2363,6 +1835,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -2376,7 +1849,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole Solder"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2385,9 +1858,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "DigiKey_Part_Number" "2073-RFPC-SMA28-F-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2396,61 +1870,370 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "+8V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RFPC-SMA28-F/GradConn/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
 				)
 			)
-			(symbol "+8V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.8mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/RFPC-SMA28-F/GradConn/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "GradConn"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "RFPC-SMA28-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "GradConn"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "RFPC-SMA28-F_0_0"
+				(arc
+					(start -3.175 0.635)
+					(mid -2.726 0.449)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -2.726 -0.449)
+					(end -3.175 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -4.318) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy -0.762 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.318) (xy 0.762 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.318) (xy 0.254 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2620,7 +2403,7 @@
 		)
 		(uuid "0d5ed8c5-742b-4674-8cbd-d902c4870f65")
 	)
-	(text "The 10 Ohm resistors model the actual burn wires"
+	(text "The 10 Ohm resistors model the actual burn wires\nQuestion for Virginia: How does this burn wire circuit work?"
 		(exclude_from_sim no)
 		(at 250.444 103.124 0)
 		(effects
@@ -2660,6 +2443,16 @@
 		)
 		(uuid "9b9da8a1-74d4-4b29-b7ab-7e6bbd7bf0c2")
 	)
+	(text "Trace antenna placement on the PCB? Where do they\ngo in relation to the metal brackets"
+		(exclude_from_sim no)
+		(at 160.528 175.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a369b4a1-e83d-4de4-86b5-b9b4808bc49b")
+	)
 	(text "2:4 Decoder Circuit"
 		(exclude_from_sim no)
 		(at 70.104 104.394 0)
@@ -2675,6 +2468,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b914c14-49bd-4698-b5e3-2da8516755c3")
+	)
+	(junction
+		(at 255.27 138.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c24a6ad-4bfa-433d-a9e3-e53c1efad052")
 	)
 	(junction
 		(at 252.73 76.2)
@@ -2707,26 +2506,42 @@
 		(uuid "91d8a007-024e-44ec-b2f3-bab04896c2a6")
 	)
 	(junction
-		(at 215.9 30.48)
+		(at 196.85 139.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8c30109-b5dc-46c4-9104-3b1a609c8173")
+		(uuid "9410f03e-485b-4b7c-9b03-6c3584259e2e")
 	)
 	(junction
-		(at 218.44 30.48)
+		(at 228.6 139.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca5dd553-222f-4f5f-aa16-37ff30ccf8f2")
+		(uuid "a451c1ef-3f8a-47d1-b4c3-f7b2f966caea")
+	)
+	(no_connect
+		(at 44.45 137.16)
+		(uuid "3ac79700-acfe-41a2-a5b9-76df3c282c71")
+	)
+	(no_connect
+		(at 100.33 137.16)
+		(uuid "60099355-311c-4972-9f51-aca130432111")
+	)
+	(no_connect
+		(at 100.33 134.62)
+		(uuid "88249fb6-26d1-4217-a2bb-a91324fa1c6e")
+	)
+	(no_connect
+		(at 100.33 139.7)
+		(uuid "990a8e3d-f085-40f5-b817-ac623acf868e")
 	)
 	(wire
 		(pts
-			(xy 228.6 151.13) (xy 228.6 158.75)
+			(xy 208.28 35.56) (xy 215.9 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "171d3804-33a0-4005-8d2c-6d751bfec0ae")
+		(uuid "0a28c754-222a-4a7e-9b73-7e57e61ccc51")
 	)
 	(wire
 		(pts
@@ -2760,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 53.34) (xy 215.9 62.23)
+			(xy 215.9 35.56) (xy 215.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2770,17 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 30.48) (xy 220.98 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c8f0487-3335-4aa9-8ea8-a2faa22a9ce9")
-	)
-	(wire
-		(pts
-			(xy 218.44 53.34) (xy 218.44 60.96)
+			(xy 218.44 35.56) (xy 218.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2800,16 +2605,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 30.48) (xy 213.36 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36480207-82a4-4e76-a809-397770bd1e07")
-	)
-	(wire
-		(pts
 			(xy 189.23 62.23) (xy 189.23 71.12)
 		)
 		(stroke
@@ -2817,6 +2612,26 @@
 			(type default)
 		)
 		(uuid "3a24f75b-8208-4dc3-a805-e6b24f0ccca3")
+	)
+	(wire
+		(pts
+			(xy 228.6 139.86) (xy 228.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c09f0f5-7ad2-45ba-8fc9-3d4c0f118995")
+	)
+	(wire
+		(pts
+			(xy 222.25 40.64) (xy 220.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c4ea806-ed75-4ef8-9a49-9cb975b99f0f")
 	)
 	(wire
 		(pts
@@ -2840,16 +2655,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 151.13) (xy 171.45 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "416cffdb-4bd6-4b83-8662-21e23d223853")
-	)
-	(wire
-		(pts
 			(xy 252.73 52.07) (xy 257.81 52.07)
 		)
 		(stroke
@@ -2870,23 +2675,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 30.48) (xy 215.9 30.48)
+			(xy 255.27 138.59) (xy 255.27 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bde875d-527d-466d-8ede-9896761777fa")
-	)
-	(wire
-		(pts
-			(xy 215.9 30.48) (xy 218.44 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee946f8-935b-4fe5-967a-b0c0654ab954")
+		(uuid "5013aa8f-a8cf-4608-b49d-c488967730f3")
 	)
 	(wire
 		(pts
@@ -2900,13 +2695,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 30.48) (xy 215.9 38.1)
+			(xy 196.85 148.59) (xy 212.09 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54b717c6-bc1c-49f6-ab1e-8113c143a298")
+		(uuid "5232bdfe-cffe-40c6-9bf7-4cd6d36950ab")
 	)
 	(wire
 		(pts
@@ -2920,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 35.56) (xy 222.25 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576fbe1e-f62e-4582-9597-d7d5dda96ba2")
+	)
+	(wire
+		(pts
 			(xy 173.99 57.15) (xy 180.34 57.15)
 		)
 		(stroke
@@ -2927,6 +2732,16 @@
 			(type default)
 		)
 		(uuid "589ad6cf-cddd-4a63-9ed0-f09927bf0438")
+	)
+	(wire
+		(pts
+			(xy 212.09 148.59) (xy 212.09 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e81d878-b63d-4e3e-8dfb-d61dc9517a26")
 	)
 	(wire
 		(pts
@@ -2940,23 +2755,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 38.1) (xy 218.44 30.48)
+			(xy 228.6 139.7) (xy 228.6 139.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6997041e-759b-4de7-bfee-92f66ef12403")
+		(uuid "6d31e688-6b80-486f-b974-d48710ab6b9d")
 	)
 	(wire
 		(pts
-			(xy 196.85 151.13) (xy 196.85 158.75)
+			(xy 217.17 149.86) (xy 217.17 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f54de53-89f0-4b10-9c47-69ccebd8bcf3")
+		(uuid "7218c699-80b2-43aa-a184-7c80d488261e")
 	)
 	(wire
 		(pts
@@ -2967,6 +2782,16 @@
 			(type default)
 		)
 		(uuid "7ccbee09-7932-4584-beed-28c4b7acee3e")
+	)
+	(wire
+		(pts
+			(xy 196.85 139.7) (xy 196.85 139.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "805781cb-9828-4842-9bda-5587fc09d5f2")
 	)
 	(wire
 		(pts
@@ -3010,6 +2835,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 119.38) (xy 43.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c93f434-1e7d-4bd1-ade5-a296c662f135")
+	)
+	(wire
+		(pts
 			(xy 173.99 58.42) (xy 173.99 57.15)
 		)
 		(stroke
@@ -3020,43 +2855,43 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 139.86) (xy 171.45 140.97)
+			(xy 172.72 139.7) (xy 172.72 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "968006e0-769a-409e-bd74-0015bfb70c1a")
+		(uuid "a32c8bc0-aca1-4636-9ea9-4f5c5353f346")
 	)
 	(wire
 		(pts
-			(xy 218.44 30.48) (xy 220.98 30.48)
+			(xy 209.55 149.86) (xy 209.55 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ec9ca76-03be-4822-89c3-33ae0ea904a5")
+		(uuid "a77b80e3-a24b-4dd0-9440-5fba2d8ada3c")
 	)
 	(wire
 		(pts
-			(xy 255.27 138.59) (xy 255.27 139.7)
+			(xy 214.63 148.59) (xy 214.63 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a64d9b66-ff15-45fb-8caf-c2fc8fdb6515")
+		(uuid "a7b35826-ceb2-4a03-b929-b974f481d020")
 	)
 	(wire
 		(pts
-			(xy 196.85 139.86) (xy 196.85 140.97)
+			(xy 208.28 40.64) (xy 213.36 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab63ad9b-af8e-44e5-82e8-b8f4b7bfdf83")
+		(uuid "a8f67dfd-03b5-4e8b-8f1a-290a46b7e12f")
 	)
 	(wire
 		(pts
@@ -3067,6 +2902,16 @@
 			(type default)
 		)
 		(uuid "b1c7ecfc-6c7d-44a7-9bbd-a42a20bac6df")
+	)
+	(wire
+		(pts
+			(xy 220.98 40.64) (xy 220.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2aa8189-52dd-4cd0-812e-6da33bb977bd")
 	)
 	(wire
 		(pts
@@ -3100,13 +2945,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 139.86) (xy 228.6 140.97)
+			(xy 43.18 121.92) (xy 44.45 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc077d1c-9d80-42cc-9219-53cef9c24092")
+		(uuid "bbf21e40-f374-4c78-b451-9d615d95ae0b")
+	)
+	(wire
+		(pts
+			(xy 255.27 138.43) (xy 255.27 138.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7a7f82-54e5-4f82-9564-dd52035af2cb")
 	)
 	(wire
 		(pts
@@ -3150,6 +3005,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 139.86) (xy 196.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca22f223-1014-43dd-a964-bd7f51dd6630")
+	)
+	(wire
+		(pts
 			(xy 218.44 78.74) (xy 224.79 78.74)
 		)
 		(stroke
@@ -3190,6 +3055,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 40.64) (xy 213.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ca1c60-193f-47e2-9bb5-77862081e0b6")
+	)
+	(wire
+		(pts
+			(xy 255.27 149.86) (xy 217.17 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b620b9-1268-42a2-8db5-dd9bc5608962")
+	)
+	(wire
+		(pts
 			(xy 180.34 57.15) (xy 180.34 80.01)
 		)
 		(stroke
@@ -3210,13 +3095,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 149.86) (xy 255.27 157.48)
+			(xy 172.72 149.86) (xy 209.55 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de9f1590-6da8-4675-b572-016519f36fb4")
+		(uuid "df20b374-ecd5-4c6d-aea4-716399b5c0e9")
+	)
+	(wire
+		(pts
+			(xy 228.6 148.59) (xy 214.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a7dcd7-4668-4a7e-8169-a27c2bfbc062")
 	)
 	(wire
 		(pts
@@ -3298,7 +3193,7 @@
 		)
 		(uuid "fd50b1a5-af2f-45cb-acaa-88546d78ed3c")
 	)
-	(global_label "Supply Voltage"
+	(global_label "Supply Voltage - 5V"
 		(shape input)
 		(at 44.45 134.62 180)
 		(fields_autoplaced yes)
@@ -3310,7 +3205,7 @@
 		)
 		(uuid "1ddd2809-e4bf-4c51-bf19-5f057f21f5ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.1928 134.62 0)
+			(at 21.3871 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,6 +3214,270 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "FET4"
+		(shape input)
+		(at 100.33 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4414b308-e2b8-418d-b11f-ffb51be0ba3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.7299 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Supply Voltage - 5V"
+		(shape input)
+		(at 100.33 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5520becb-a833-4c00-925c-7fe93c9d477d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.3929 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FET2"
+		(shape input)
+		(at 208.28 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66b03c0f-ae60-4ae2-afc1-035d12472750")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8801 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FET2"
+		(shape input)
+		(at 100.33 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6dc280de-ce96-40c1-91a0-125144dc477c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.7299 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FET4"
+		(shape input)
+		(at 222.25 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af14fff8-28fc-42a5-baf7-ff290aeb8e44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6499 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FET3"
+		(shape input)
+		(at 222.25 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c06c1a69-8ac8-4acb-90d2-07656d9cf052")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6499 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 44.45 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c72db984-0f43-4169-a106-8b4804e03f96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.78 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FET3"
+		(shape input)
+		(at 100.33 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc6b22c3-75de-49b4-a524-f39e7d905ec1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.7299 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO1"
+		(shape input)
+		(at 44.45 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d552ab73-7d69-472a-893d-94bb666e76d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FET1"
+		(shape input)
+		(at 208.28 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edc2cff3-9f7b-41a6-89d8-869582df0fba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8801 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FET1"
+		(shape input)
+		(at 100.33 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f68b5a60-8b78-4c89-af9e-713272979071")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.7299 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3640,84 +3799,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0477ecbd-8527-470a-9ecc-b88a2fcf1c67")
-		(property "Reference" "#PWR041"
-			(at 171.45 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "520f21ff-f8f0-480b-b152-561d8dae6134")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 100.33 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -3789,88 +3870,6 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 255.27 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b34aa90-9230-4f68-b4a5-82cedf0c8ad5")
-		(property "Reference" "J4"
-			(at 257.81 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 257.81 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 255.27 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Coaxial connector; stand-in for short coax cable feed to antenna tape element"
-			(at 255.27 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "feab150d-5d66-475c-9752-5e0ba27dddb0")
-		)
-		(pin "2"
-			(uuid "50264ccb-2369-47c4-8585-699bc1882809")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4202,6 +4201,219 @@
 		)
 	)
 	(symbol
+		(lib_id "inspireFly:RFPC-SMA28-F")
+		(at 219.71 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8a508d-89d2-4542-a01a-2a24fa83090e")
+		(property "Reference" "J5"
+			(at 224.79 155.4479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RFPC-SMA28-F"
+			(at 224.79 157.9879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "inspireFly:GRADCONN_RFPC-SMA28-F"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole Solder"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "2073-RFPC-SMA28-F-ND"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RFPC-SMA28-F/GradConn/view-part/?ref=snap"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.8mm"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RFPC-SMA28-F/GradConn/view-part/?ref=eda"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "GradConn"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "RFPC-SMA28-F"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "GradConn"
+			(at 219.71 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "G3"
+			(uuid "398fde9f-faed-4797-848e-222e29f76b26")
+		)
+		(pin "G4"
+			(uuid "d42b9726-787d-45e3-9133-0c3fccac7d77")
+		)
+		(pin "1"
+			(uuid "dc242114-cd3f-40d4-91bb-c8033c71cfb2")
+		)
+		(pin "G1"
+			(uuid "7d1b07a2-7d9c-414c-848e-91df434f005a")
+		)
+		(pin "G2"
+			(uuid "3868527d-5a8b-4223-9f6b-c9a7e99f3101")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 34.29 35.56 0)
 		(unit 1)
@@ -4356,84 +4568,6 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "R_Pulldown1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c62393e-b8e6-400a-8343-b37fe87d472a")
-		(property "Reference" "#PWR043"
-			(at 228.6 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e45b79f-cc65-41a4-8695-02b866496a28")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4756,7 +4890,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 196.85 136.05 0)
+		(at 196.85 136.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4767,25 +4901,25 @@
 		(fields_autoplaced yes)
 		(uuid "24f6c073-bde1-4429-80c5-b1361b1fe3b5")
 		(property "Reference" "ANT2"
-			(at 199.39 139.86 0)
+			(at 199.39 135.0974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Antenna"
-			(at 199.39 137.32 0)
+			(at 199.39 137.6374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5237,88 +5371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 228.6 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32788108-477c-46e0-905c-9ae9ec7da3a1")
-		(property "Reference" "J3"
-			(at 231.14 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 231.14 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 228.6 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Coaxial connector; stand-in for short coax cable feed to antenna tape element"
-			(at 228.6 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb9d51c9-956d-488d-af75-5abe18cbd549")
-		)
-		(pin "2"
-			(uuid "89c49f6f-cdd9-4667-9801-50388ea54806")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 179.07 97.79 0)
 		(unit 1)
@@ -5473,84 +5525,6 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 255.27 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3eb71d22-f930-480a-ad1e-0bf610bbb971")
-		(property "Reference" "#PWR044"
-			(at 255.27 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "808189c9-a622-4a55-8540-4091cd95010e")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6195,84 +6169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e8a0364-066d-4e4f-bf12-42400084cb3c")
-		(property "Reference" "#PWR042"
-			(at 196.85 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8d2c949-f887-4eae-8ea6-cc0157471333")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 34.29 49.53 0)
 		(unit 1)
@@ -6909,7 +6805,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 255.27 134.78 0)
+		(at 255.27 134.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6920,25 +6816,25 @@
 		(fields_autoplaced yes)
 		(uuid "6dc92761-84ad-4182-a26e-dbd849ab5121")
 		(property "Reference" "ANT4"
-			(at 257.81 138.59 0)
+			(at 257.81 133.8274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Antenna"
-			(at 257.81 136.05 0)
+			(at 257.81 136.3674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8209,6 +8105,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "828c7158-f879-4119-a701-144b4c28bf2a")
+		(property "Reference" "#PWR047"
+			(at 43.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41041a17-d42b-4d02-900a-e0f276139a38")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 62.23 35.56 0)
 		(unit 1)
@@ -8446,106 +8420,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x04")
-		(at 215.9 45.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89f856bc-1f67-4013-9973-6b6b60c9a60f")
-		(property "Reference" "SW1"
-			(at 224.79 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_DIP_x04"
-			(at 224.79 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile"
-			(at 215.9 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 215.9 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "1b999e85-8774-442b-ae25-e9c8e491b390")
-		)
-		(pin "1"
-			(uuid "d2d35bc4-ac13-4ede-9017-4e5e0697f108")
-		)
-		(pin "2"
-			(uuid "f4ea08cc-b64a-4e5a-9284-7bf1c0af0c0b")
-		)
-		(pin "4"
-			(uuid "7f0c1e5e-c5fd-463d-9571-d99fed7a36ec")
-		)
-		(pin "3"
-			(uuid "79faaab2-c647-46ec-9cef-07dc571908d2")
-		)
-		(pin "7"
-			(uuid "0f4b8780-3408-49b0-a9a2-72e00f5420ef")
-		)
-		(pin "8"
-			(uuid "54902cd8-d084-4c46-bd6b-f2ed60616cd7")
-		)
-		(pin "5"
-			(uuid "5eae9647-dd56-4ccc-9590-dbfa715bc886")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 262.89 83.82 0)
 		(unit 1)
@@ -8701,88 +8575,6 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "H20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 171.45 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e2f886b-e8f0-4dfc-a4a4-c4aef31a088b")
-		(property "Reference" "J1"
-			(at 173.99 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 173.99 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Coaxial connector; stand-in for short coax cable feed to antenna tape element"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f7bb055-6b2a-478c-8b84-6befd8f704ea")
-		)
-		(pin "2"
-			(uuid "7b2daec5-90e3-4d5d-a917-f40b725ec834")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9507,85 +9299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
-		(at 171.45 136.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aba28e4d-5539-4a83-8cc5-1947ba946160")
-		(property "Reference" "ANT1"
-			(at 173.99 139.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 173.99 137.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 136.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 136.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Antenna feed point (stand-in for tape/monopole element fed by short coax cable)"
-			(at 171.45 136.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3824eb2d-4e61-4f10-833a-6001ba97e3f2")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "ANT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 100.33 49.53 0)
 		(unit 1)
@@ -10222,6 +9935,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna")
+		(at 172.72 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c668d89a-a4e9-4dd9-8b6a-dc090e42eb4e")
+		(property "Reference" "ANT5"
+			(at 175.26 134.9374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 175.26 137.4774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna feed point (stand-in for tape/monopole element fed by short coax cable)"
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbaf4b7e-f20b-459f-8eca-fafaf96a3ab1")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "ANT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 133.35 0)
 		(unit 1)
@@ -10378,84 +10170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+8V")
-		(at 215.9 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cce70e87-56ee-41ee-8acf-2f6a41491dc8")
-		(property "Reference" "#PWR033"
-			(at 215.9 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+8V"
-			(at 215.9 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 215.9 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74287dca-c8c4-4674-b3e3-a51d2a7d6df9")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 72.39 63.5 0)
 		(unit 1)
@@ -10536,7 +10250,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 228.6 136.05 0)
+		(at 228.6 136.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10547,25 +10261,25 @@
 		(fields_autoplaced yes)
 		(uuid "d3217dde-ed5d-48ef-9365-15bb09b92a03")
 		(property "Reference" "ANT3"
-			(at 231.14 139.86 0)
+			(at 231.14 135.0974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Antenna"
-			(at 231.14 137.32 0)
+			(at 231.14 137.6374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -11400,88 +11114,6 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 196.85 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f43007c9-6cc1-4056-b7d8-f1e80a7256c4")
-		(property "Reference" "J2"
-			(at 199.39 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 199.39 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 196.85 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Coaxial connector; stand-in for short coax cable feed to antenna tape element"
-			(at 196.85 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef150644-d229-4cd1-8c7c-58039f376181")
-		)
-		(pin "2"
-			(uuid "7c3fac59-1cc4-41f8-8df9-8463a261dac2")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "J2")
 					(unit 1)
 				)
 			)
