@@ -2403,7 +2403,7 @@
 		)
 		(uuid "0d5ed8c5-742b-4674-8cbd-d902c4870f65")
 	)
-	(text "The 10 Ohm resistors model the actual burn wires\nQuestion for Virginia: How does this burn wire circuit work?"
+	(text "The 10 Ohm resistors model the actual burn wires"
 		(exclude_from_sim no)
 		(at 250.444 103.124 0)
 		(effects
@@ -2476,6 +2476,12 @@
 		(uuid "0c24a6ad-4bfa-433d-a9e3-e53c1efad052")
 	)
 	(junction
+		(at 212.09 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c1fe35b-cd82-4037-8deb-73b4c6b2270d")
+	)
+	(junction
 		(at 252.73 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2486,6 +2492,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44032bf9-e3e7-461d-9095-5fab2bb71b7f")
+	)
+	(junction
+		(at 213.36 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535f0333-1502-41d4-bb08-e6eabc7965fb")
 	)
 	(junction
 		(at 24.13 132.08)
@@ -2517,6 +2529,36 @@
 		(color 0 0 0 0)
 		(uuid "a451c1ef-3f8a-47d1-b4c3-f7b2f966caea")
 	)
+	(junction
+		(at 210.82 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0efcd22-e81f-4993-bf7d-7c29825425b5")
+	)
+	(junction
+		(at 218.44 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6f7e1c6-8388-4f1d-9369-2ad7012051c2")
+	)
+	(junction
+		(at 215.9 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc97fcf-ff1e-4c75-bf77-9093f5bb9c7a")
+	)
+	(junction
+		(at 214.63 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1ec84f8-ece3-43e0-a2fc-6762ed6238b3")
+	)
+	(junction
+		(at 205.74 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f68f33e8-53c1-4a73-9f02-e3025814b99e")
+	)
 	(no_connect
 		(at 44.45 137.16)
 		(uuid "3ac79700-acfe-41a2-a5b9-76df3c282c71")
@@ -2535,6 +2577,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 149.86) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0042eefb-dd64-44d3-8aca-baf2253ae8fb")
+	)
+	(wire
+		(pts
 			(xy 208.28 35.56) (xy 215.9 35.56)
 		)
 		(stroke
@@ -2545,6 +2597,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 162.56) (xy 218.44 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cc4bc5-e83c-4d96-b063-626834fa6a1f")
+	)
+	(wire
+		(pts
 			(xy 179.07 101.6) (xy 179.07 109.22)
 		)
 		(stroke
@@ -2552,6 +2614,16 @@
 			(type default)
 		)
 		(uuid "23cc6ba2-74b8-4a1e-a64e-b879e966e971")
+	)
+	(wire
+		(pts
+			(xy 213.36 156.21) (xy 215.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26880f17-df42-459d-8a73-bf644eb318d0")
 	)
 	(wire
 		(pts
@@ -2582,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "2b0c116e-242c-49fa-b194-8cddae957c91")
+	)
+	(wire
+		(pts
+			(xy 213.36 156.21) (xy 213.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd383de-08ff-49a4-b9e0-2b1030af080a")
 	)
 	(wire
 		(pts
@@ -2652,6 +2734,36 @@
 			(type default)
 		)
 		(uuid "40c1d9a8-6f39-46cf-82fa-996333a316ed")
+	)
+	(wire
+		(pts
+			(xy 172.72 149.86) (xy 205.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429ed219-2542-4acf-bf7c-30144e0fee5b")
+	)
+	(wire
+		(pts
+			(xy 214.63 148.59) (xy 214.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f14d8a-49ce-420b-9117-ce61accb7373")
+	)
+	(wire
+		(pts
+			(xy 210.82 156.21) (xy 210.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dce772-a80a-4e3c-a916-2d77835f2887")
 	)
 	(wire
 		(pts
@@ -2735,16 +2847,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 148.59) (xy 212.09 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e81d878-b63d-4e3e-8dfb-d61dc9517a26")
-	)
-	(wire
-		(pts
 			(xy 262.89 76.2) (xy 262.89 80.01)
 		)
 		(stroke
@@ -2752,6 +2854,26 @@
 			(type default)
 		)
 		(uuid "6057e0ce-3bf6-4f0e-8fb8-786db3e5bbaf")
+	)
+	(wire
+		(pts
+			(xy 215.9 156.21) (xy 215.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63dec620-847d-489a-861f-5111926ccd5d")
+	)
+	(wire
+		(pts
+			(xy 218.44 156.21) (xy 218.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e5c637-2177-4494-bad4-692245753f9c")
 	)
 	(wire
 		(pts
@@ -2765,13 +2887,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 149.86) (xy 217.17 153.67)
+			(xy 212.09 149.86) (xy 214.63 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7218c699-80b2-43aa-a184-7c80d488261e")
+		(uuid "72042a3f-5cd6-4c20-bcdb-6a71cea1f6b7")
 	)
 	(wire
 		(pts
@@ -2802,6 +2924,16 @@
 			(type default)
 		)
 		(uuid "809bc8b1-f209-45de-b6ef-bf3e40eec229")
+	)
+	(wire
+		(pts
+			(xy 205.74 149.86) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e7ee33-8345-4cda-bc19-df7793fa44a2")
 	)
 	(wire
 		(pts
@@ -2861,27 +2993,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a32c8bc0-aca1-4636-9ea9-4f5c5353f346")
-	)
-	(wire
-		(pts
-			(xy 209.55 149.86) (xy 209.55 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a77b80e3-a24b-4dd0-9440-5fba2d8ada3c")
-	)
-	(wire
-		(pts
-			(xy 214.63 148.59) (xy 214.63 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b35826-ceb2-4a03-b929-b974f481d020")
+		(uuid "a65f5d79-0fc8-46df-82c4-4a104230647d")
 	)
 	(wire
 		(pts
@@ -2945,6 +3057,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 148.59) (xy 212.09 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76eb415-f9a5-49c5-9e5a-1873c17359ab")
+	)
+	(wire
+		(pts
 			(xy 43.18 121.92) (xy 44.45 121.92)
 		)
 		(stroke
@@ -2992,6 +3114,16 @@
 			(type default)
 		)
 		(uuid "c67be100-5736-49bd-bf0e-c0bba8d447d3")
+	)
+	(wire
+		(pts
+			(xy 215.9 156.21) (xy 218.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8809124-0337-4493-91a4-d1857832638f")
 	)
 	(wire
 		(pts
@@ -3065,13 +3197,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 149.86) (xy 217.17 149.86)
+			(xy 210.82 156.21) (xy 213.36 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3b620b9-1268-42a2-8db5-dd9bc5608962")
+		(uuid "d3a48f50-0232-400e-abab-42cf9fa7f4cd")
 	)
 	(wire
 		(pts
@@ -3092,16 +3224,6 @@
 			(type default)
 		)
 		(uuid "d8034de3-54f8-4882-9988-3a26ccb0007c")
-	)
-	(wire
-		(pts
-			(xy 172.72 149.86) (xy 209.55 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df20b374-ecd5-4c6d-aea4-716399b5c0e9")
 	)
 	(wire
 		(pts
@@ -3162,6 +3284,26 @@
 			(type default)
 		)
 		(uuid "e9463b79-cda0-4296-9294-ccbe99b6c10c")
+	)
+	(wire
+		(pts
+			(xy 205.74 162.56) (xy 205.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f243e272-d45c-472b-9e51-b043a48c5b32")
+	)
+	(wire
+		(pts
+			(xy 218.44 162.56) (xy 205.74 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d5bb1b-576a-4218-ae4c-5ed80ae1e58c")
 	)
 	(wire
 		(pts
@@ -4202,7 +4344,7 @@
 	)
 	(symbol
 		(lib_id "inspireFly:RFPC-SMA28-F")
-		(at 219.71 158.75 180)
+		(at 220.98 162.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4213,7 +4355,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b8a508d-89d2-4542-a01a-2a24fa83090e")
 		(property "Reference" "J5"
-			(at 224.79 155.4479 0)
+			(at 226.06 159.2579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4224,7 +4366,7 @@
 			)
 		)
 		(property "Value" "RFPC-SMA28-F"
-			(at 224.79 157.9879 0)
+			(at 226.06 161.7979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4235,7 +4377,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:GRADCONN_RFPC-SMA28-F"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4247,7 +4389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4400,7 @@
 			)
 		)
 		(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole Solder"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4270,7 +4412,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "2073-RFPC-SMA28-F-ND"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,7 +4424,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RFPC-SMA28-F/GradConn/view-part/?ref=snap"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4436,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.8mm"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4448,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4460,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RFPC-SMA28-F/GradConn/view-part/?ref=eda"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4330,7 +4472,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4342,7 +4484,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4496,7 @@
 			)
 		)
 		(property "MF" "GradConn"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +4508,7 @@
 			)
 		)
 		(property "MP" "RFPC-SMA28-F"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +4520,7 @@
 			)
 		)
 		(property "MANUFACTURER" "GradConn"
-			(at 219.71 158.75 0)
+			(at 220.98 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5121,6 +5263,84 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "R_Pulldown3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ae58364-81f4-4295-96f8-fb48fd7046e5")
+		(property "Reference" "#PWR033"
+			(at 210.82 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c12fc99-c568-4fb5-aa56-423992c1e99c")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8341,6 +8561,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna")
+		(at 172.72 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "868826dc-eae9-45a1-804b-0d50377f6d77")
+		(property "Reference" "ANT5"
+			(at 175.26 134.9374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 175.26 137.4774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna feed point (stand-in for tape/monopole element fed by short coax cable)"
+			(at 172.72 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bc909b4-5975-4afa-9d70-3919e646180a")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "ANT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 62.23 77.47 0)
 		(unit 1)
@@ -9929,85 +10228,6 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna")
-		(at 172.72 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c668d89a-a4e9-4dd9-8b6a-dc090e42eb4e")
-		(property "Reference" "ANT5"
-			(at 175.26 134.9374 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 175.26 137.4774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Antenna feed point (stand-in for tape/monopole element fed by short coax cable)"
-			(at 172.72 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbaf4b7e-f20b-459f-8eca-fafaf96a3ab1")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "ANT5")
 					(unit 1)
 				)
 			)
