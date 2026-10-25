@@ -2560,6 +2560,10 @@
 		(uuid "f68f33e8-53c1-4a73-9f02-e3025814b99e")
 	)
 	(no_connect
+		(at 100.33 132.08)
+		(uuid "1cef502d-4095-45ef-98d4-4f336105749d")
+	)
+	(no_connect
 		(at 44.45 137.16)
 		(uuid "3ac79700-acfe-41a2-a5b9-76df3c282c71")
 	)
@@ -2570,10 +2574,6 @@
 	(no_connect
 		(at 100.33 134.62)
 		(uuid "88249fb6-26d1-4217-a2bb-a91324fa1c6e")
-	)
-	(no_connect
-		(at 100.33 139.7)
-		(uuid "990a8e3d-f085-40f5-b817-ac623acf868e")
 	)
 	(wire
 		(pts
@@ -3361,7 +3361,7 @@
 	)
 	(global_label "FET4"
 		(shape input)
-		(at 100.33 132.08 0)
+		(at 100.33 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3371,7 +3371,7 @@
 		)
 		(uuid "4414b308-e2b8-418d-b11f-ffb51be0ba3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7299 132.08 0)
+			(at 107.7299 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3455,7 +3455,7 @@
 			)
 		)
 	)
-	(global_label "FET4"
+	(global_label "FET3"
 		(shape input)
 		(at 222.25 40.64 0)
 		(fields_autoplaced yes)
@@ -3479,7 +3479,7 @@
 			)
 		)
 	)
-	(global_label "FET3"
+	(global_label "FET4"
 		(shape input)
 		(at 222.25 35.56 0)
 		(fields_autoplaced yes)
