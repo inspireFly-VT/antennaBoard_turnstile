@@ -8572,7 +8572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "868826dc-eae9-45a1-804b-0d50377f6d77")
-		(property "Reference" "ANT5"
+		(property "Reference" "ANT1"
 			(at 175.26 134.9374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8594,7 +8594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Coilcraft_MA5532-AE_RFID"
 			(at 172.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8633,7 @@
 		(instances
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "ANT5")
+					(reference "ANT1")
 					(unit 1)
 				)
 			)
