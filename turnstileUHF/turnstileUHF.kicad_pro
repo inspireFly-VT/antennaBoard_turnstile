@@ -470,6 +470,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -517,8 +518,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -661,7 +662,7 @@
         "uuid": "bb80e4f3-3333-4302-bfd1-5248f999de56"
       }
     ],
-    "used_designators": "ANT5,#PWR33,AE1,J5",
+    "used_designators": "#PWR33,#PWR43-44,#PWR48-57,AE1,ANT5,C1-3,J2-3,J5,R1-3,U2-4",
     "variants": []
   },
   "sheets": [
