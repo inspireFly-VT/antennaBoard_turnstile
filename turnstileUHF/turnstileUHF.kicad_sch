@@ -4246,7 +4246,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 68.834 20.32 0)
+		(at 54.864 16.51 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4323,6 +4323,12 @@
 		(uuid "0c24a6ad-4bfa-433d-a9e3-e53c1efad052")
 	)
 	(junction
+		(at 97.79 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b12c4b9-34c2-426a-a5a8-affcc9857215")
+	)
+	(junction
 		(at 212.09 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4339,6 +4345,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44032bf9-e3e7-461d-9095-5fab2bb71b7f")
+	)
+	(junction
+		(at 97.79 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "518c73db-a9c8-40c0-8e05-54fc3ca71289")
 	)
 	(junction
 		(at 213.36 156.21)
@@ -4375,6 +4387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a4e18a9-44ef-4f97-a9ef-741822c6692e")
+	)
+	(junction
+		(at 97.79 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ddb08f2-cf52-4cd7-ba2a-21bb1edb0d62")
 	)
 	(junction
 		(at 187.96 52.07)
@@ -4429,6 +4447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd7de2fa-801a-474d-88fd-f148a4b431a6")
+	)
+	(junction
+		(at 97.79 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de5e13c8-68af-4604-8b09-efaf270f80c8")
 	)
 	(junction
 		(at 87.63 132.08)
@@ -4512,6 +4536,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 35.56) (xy 116.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cca9020-efa5-4079-bb0f-1affc76e3815")
+	)
+	(wire
+		(pts
+			(xy 97.79 17.78) (xy 101.6 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1200e192-a71b-4c0b-b31f-ec7b67008bc7")
+	)
+	(wire
+		(pts
 			(xy 219.71 162.56) (xy 218.44 162.56)
 		)
 		(stroke
@@ -4519,6 +4563,16 @@
 			(type default)
 		)
 		(uuid "12cc4bc5-e83c-4d96-b063-626834fa6a1f")
+	)
+	(wire
+		(pts
+			(xy 97.79 57.15) (xy 97.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d580ae-be07-4a71-950a-710a2645748e")
 	)
 	(wire
 		(pts
@@ -4622,6 +4676,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 57.15) (xy 97.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5a20cc-212f-4643-b15a-31310ce9b472")
+	)
+	(wire
+		(pts
 			(xy 217.17 16.51) (xy 217.17 41.91)
 		)
 		(stroke
@@ -4679,6 +4743,16 @@
 			(type default)
 		)
 		(uuid "35dc0ef1-36ce-499e-acd4-b52dda68336b")
+	)
+	(wire
+		(pts
+			(xy 104.14 48.26) (xy 97.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361d5488-67a7-4191-a401-bb7a70b63e07")
 	)
 	(wire
 		(pts
@@ -4782,6 +4856,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 57.15) (xy 128.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ef10c8-0945-4f2a-89fe-d458d7db6893")
+	)
+	(wire
+		(pts
 			(xy 96.52 100.33) (xy 165.1 100.33)
 		)
 		(stroke
@@ -4882,6 +4966,26 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 29.21) (xy 97.79 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a494c1-5781-48ad-a7fb-23b6e512fdef")
+	)
+	(wire
+		(pts
+			(xy 97.79 29.21) (xy 97.79 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c43cb95-1230-44a2-adcc-e5595171269d")
+	)
+	(wire
+		(pts
 			(xy 261.62 57.15) (xy 261.62 60.96)
 		)
 		(stroke
@@ -4972,6 +5076,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 41.91) (xy 116.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e94b0c-d53e-431b-b67a-95ed9e7d8265")
+	)
+	(wire
+		(pts
 			(xy 212.09 149.86) (xy 214.63 149.86)
 		)
 		(stroke
@@ -4989,6 +5103,16 @@
 			(type default)
 		)
 		(uuid "72572e0e-b711-4443-ae71-16a60b799b0a")
+	)
+	(wire
+		(pts
+			(xy 97.79 35.56) (xy 105.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742a859a-ce5b-4203-886a-6e5cb381c9a3")
 	)
 	(wire
 		(pts
@@ -5202,6 +5326,26 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 35.56) (xy 97.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1a2af4-66a3-4d4e-903e-63f45d9e35ec")
+	)
+	(wire
+		(pts
+			(xy 97.79 41.91) (xy 97.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb803fd-749c-4720-94ea-333d85c5ab65")
+	)
+	(wire
+		(pts
 			(xy 20.32 101.6) (xy 20.32 114.3)
 		)
 		(stroke
@@ -5209,6 +5353,16 @@
 			(type default)
 		)
 		(uuid "af42d77d-2b5d-4b89-98d3-01313cd83933")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1875324-a3fc-4e64-8594-b35ba5616c0c")
 	)
 	(wire
 		(pts
@@ -5502,6 +5656,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 29.21) (xy 116.84 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9b2f7a-8c1f-4c10-9cff-642906cbb4db")
+	)
+	(wire
+		(pts
 			(xy 228.6 148.59) (xy 214.63 148.59)
 		)
 		(stroke
@@ -5602,6 +5766,36 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 41.91) (xy 97.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c50f1c-6404-4eac-9b97-0f1f4f4cf40a")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 128.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53ab774-eaa8-4824-8aa7-ebedad8b093a")
+	)
+	(wire
+		(pts
+			(xy 97.79 29.21) (xy 97.79 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b53ad5-e937-4f06-9011-147db326e6cb")
+	)
+	(wire
+		(pts
 			(xy 165.1 44.45) (xy 165.1 49.53)
 		)
 		(stroke
@@ -5650,6 +5844,54 @@
 		)
 		(uuid "0836dd94-a10c-4a67-8c95-39860cc388ad")
 	)
+	(global_label "down_door"
+		(shape output)
+		(at 116.84 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "109d5d09-c475-4a9a-8aba-999423c7e921")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8035 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "up_door"
+		(shape output)
+		(at 99.06 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "127da353-d174-4f0a-8b8b-e05e42281b99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 79.064 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Supply Voltage - 5V"
 		(shape input)
 		(at 41.91 177.8 180)
@@ -5663,6 +5905,30 @@
 		(uuid "1ddd2809-e4bf-4c51-bf19-5f057f21f5ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.8471 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "l_door"
+		(shape output)
+		(at 88.9 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42df08e3-9b20-4249-80ae-ba504945efd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 77.4312 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,6 +5961,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "r_door"
+		(shape output)
+		(at 107.95 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44a44bd6-4461-4a44-9578-21f04da51e3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 77.5522 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5842,6 +6132,30 @@
 			)
 		)
 	)
+	(global_label "r_door"
+		(shape output)
+		(at 116.84 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb7b138c-8981-4083-b504-8b84cbdc8362")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.8122 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "FET3"
 		(shape input)
 		(at 97.79 172.72 0)
@@ -5890,6 +6204,54 @@
 			)
 		)
 	)
+	(global_label "up_door"
+		(shape output)
+		(at 116.84 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de27546f-9aff-4c06-84dd-5dbcb922cfdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.324 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "down_door"
+		(shape output)
+		(at 116.84 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e37e3fca-8379-417a-bdb4-3c6bd606f860")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 81.5435 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "FET1"
 		(shape input)
 		(at 207.01 21.59 180)
@@ -5911,6 +6273,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Sense"
+		(shape input)
+		(at 101.6 17.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f32f8627-c50d-4bb2-94d1-458dbaee2d48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.149 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5938,9 +6324,33 @@
 			)
 		)
 	)
+	(global_label "l_door"
+		(shape output)
+		(at 116.84 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb49cb19-c7a6-4899-80c6-bf13538120d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.6912 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 52.07 0)
+		(at 27.94 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5951,7 +6361,7 @@
 		(fields_autoplaced yes)
 		(uuid "00d084e1-3f91-4b93-8ffe-9210816a7ae1")
 		(property "Reference" "#PWR010"
-			(at 43.18 58.42 0)
+			(at 27.94 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +6372,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 57.15 0)
+			(at 27.94 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5972,7 +6382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 52.07 0)
+			(at 27.94 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +6393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 52.07 0)
+			(at 27.94 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5994,7 +6404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 52.07 0)
+			(at 27.94 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6428,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 66.04 0)
+		(at 19.05 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6029,7 +6439,7 @@
 		(fields_autoplaced yes)
 		(uuid "015c7ba4-7e6f-4b7c-a9dc-133fa5ff37a4")
 		(property "Reference" "#PWR017"
-			(at 34.29 72.39 0)
+			(at 19.05 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,7 +6450,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 71.12 0)
+			(at 19.05 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6050,7 +6460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 66.04 0)
+			(at 19.05 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 66.04 0)
+			(at 19.05 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,7 +6482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 66.04 0)
+			(at 19.05 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6096,7 +6506,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 80.01 0)
+		(at 38.1 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6107,7 +6517,7 @@
 		(fields_autoplaced yes)
 		(uuid "02444509-ced0-4f4a-803c-fe10b6c7de59")
 		(property "Reference" "#PWR022"
-			(at 53.34 86.36 0)
+			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6528,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 85.09 0)
+			(at 38.1 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6128,7 +6538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 80.01 0)
+			(at 38.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6139,7 +6549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 80.01 0)
+			(at 38.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,7 +6560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 80.01 0)
+			(at 38.1 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 80.01 0)
+		(at 74.93 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6267,7 +6677,7 @@
 		(fields_autoplaced yes)
 		(uuid "0778fccd-a2db-4dd1-b3f7-7bf7a493f309")
 		(property "Reference" "#PWR032"
-			(at 100.33 86.36 0)
+			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6278,7 +6688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 85.09 0)
+			(at 74.93 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6288,7 +6698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 80.01 0)
+			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,7 +6709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 80.01 0)
+			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6310,7 +6720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 80.01 0)
+			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6420,7 +6830,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 43.18 63.5 0)
+		(at 88.9 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6431,7 +6841,7 @@
 		(fields_autoplaced yes)
 		(uuid "11764c78-05de-4d69-b10a-6fc0dc72f5f9")
 		(property "Reference" "H19"
-			(at 45.72 60.9599 0)
+			(at 91.44 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6442,7 +6852,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 45.72 63.4999 0)
+			(at 91.44 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6453,7 +6863,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 43.18 63.5 0)
+			(at 88.9 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6464,7 +6874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 63.5 0)
+			(at 88.9 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6475,7 +6885,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 43.18 63.5 0)
+			(at 88.9 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6499,7 +6909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 66.04 0)
+		(at 57.15 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6510,7 +6920,7 @@
 		(fields_autoplaced yes)
 		(uuid "11af1e91-5f37-431a-8740-11cc85addf20")
 		(property "Reference" "#PWR027"
-			(at 81.28 72.39 0)
+			(at 57.15 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6521,7 +6931,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 71.12 0)
+			(at 57.15 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6531,7 +6941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 66.04 0)
+			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6542,7 +6952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 66.04 0)
+			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6553,7 +6963,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 66.04 0)
+			(at 57.15 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7029,7 +7439,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 34.29 35.56 0)
+		(at 20.32 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7040,7 +7450,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bddd649-6cfe-4fff-a010-feb426fdc4e8")
 		(property "Reference" "H1"
-			(at 36.83 33.0199 0)
+			(at 22.86 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7051,7 +7461,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 36.83 35.5599 0)
+			(at 22.86 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7062,7 +7472,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 34.29 35.56 0)
+			(at 20.32 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7073,7 +7483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 35.56 0)
+			(at 20.32 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7084,7 +7494,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 34.29 35.56 0)
+			(at 20.32 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7188,86 +7598,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cb93f12-f04f-4bcc-8808-d3fdab7492dd")
-		(property "Reference" "#PWR05"
-			(at 72.39 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b0373a8-ca89-4ffc-85f4-47daff7c07bf")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 35.56 0)
+		(at 55.88 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7278,7 +7610,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e2d55e2-0e65-43a0-b2d4-7a595a1190b3")
 		(property "Reference" "H6"
-			(at 83.82 33.0199 0)
+			(at 58.42 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7289,7 +7621,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 83.82 35.5599 0)
+			(at 58.42 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7300,7 +7632,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 81.28 35.56 0)
+			(at 55.88 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 35.56 0)
+			(at 55.88 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,7 +7654,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 35.56 0)
+			(at 55.88 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7426,7 +7758,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 34.29 77.47 0)
+		(at 19.05 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7437,7 +7769,7 @@
 		(fields_autoplaced yes)
 		(uuid "21012a33-46ba-4889-a5ef-0e7ec605a85c")
 		(property "Reference" "H18"
-			(at 36.83 74.9299 0)
+			(at 21.59 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7448,7 +7780,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 36.83 77.4699 0)
+			(at 21.59 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7459,7 +7791,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 34.29 77.47 0)
+			(at 19.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7470,7 +7802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 77.47 0)
+			(at 19.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7481,7 +7813,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 34.29 77.47 0)
+			(at 19.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,7 +7837,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 35.56 0)
+		(at 66.04 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7516,7 +7848,7 @@
 		(fields_autoplaced yes)
 		(uuid "24d0e485-22ec-4705-8f13-b6be9c49b875")
 		(property "Reference" "H7"
-			(at 93.98 33.0199 0)
+			(at 68.58 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7527,7 +7859,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 93.98 35.5599 0)
+			(at 68.58 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7538,7 +7870,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 91.44 35.56 0)
+			(at 66.04 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7549,7 +7881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 35.56 0)
+			(at 66.04 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7560,7 +7892,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 91.44 35.56 0)
+			(at 66.04 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,7 +7995,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 52.07 0)
+		(at 38.1 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7674,7 +8006,7 @@
 		(fields_autoplaced yes)
 		(uuid "2648f37d-afc9-47fb-b6fc-4aef6edd1630")
 		(property "Reference" "#PWR011"
-			(at 53.34 58.42 0)
+			(at 38.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7685,7 +8017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 57.15 0)
+			(at 38.1 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7695,7 +8027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 52.07 0)
+			(at 38.1 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,7 +8038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 52.07 0)
+			(at 38.1 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7717,7 +8049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 52.07 0)
+			(at 38.1 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7981,6 +8313,85 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 109.22 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e8d8bf3-081e-4068-86b9-c9129bec2b9a")
+		(property "Reference" "R7"
+			(at 103.886 33.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "499k"
+			(at 109.22 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.474 34.544 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 109.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db033047-c37d-4637-832c-ca0fc4e6e2cb")
+		)
+		(pin "2"
+			(uuid "09012e21-cda1-4248-b443-1cc64c991a16")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8325,7 +8736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 66.04 0)
+		(at 76.2 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8336,7 +8747,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cbbd90f-d63e-463a-9f86-c5d7cb02df83")
 		(property "Reference" "#PWR031"
-			(at 100.33 72.39 0)
+			(at 76.2 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +8758,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 71.12 0)
+			(at 76.2 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8357,7 +8768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 66.04 0)
+			(at 76.2 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8368,7 +8779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 66.04 0)
+			(at 76.2 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,7 +8790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 66.04 0)
+			(at 76.2 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8481,7 +8892,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 49.53 0)
+		(at 107.95 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8492,7 +8903,7 @@
 		(fields_autoplaced yes)
 		(uuid "4530df4d-a7e5-4a9a-9cfc-68554730bacf")
 		(property "Reference" "H12"
-			(at 64.77 46.9899 0)
+			(at 110.49 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8503,7 +8914,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 64.77 49.5299 0)
+			(at 110.49 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8514,7 +8925,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 62.23 49.53 0)
+			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8525,7 +8936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 49.53 0)
+			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,7 +8947,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 62.23 49.53 0)
+			(at 107.95 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8638,7 +9049,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 53.34 35.56 0)
+		(at 39.37 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8649,7 +9060,7 @@
 		(fields_autoplaced yes)
 		(uuid "46412f6e-d9e0-48e6-9b06-c2315a7f8328")
 		(property "Reference" "H3"
-			(at 55.88 33.0199 0)
+			(at 41.91 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8660,7 +9071,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 55.88 35.5599 0)
+			(at 41.91 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8671,7 +9082,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 53.34 35.56 0)
+			(at 39.37 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8682,7 +9093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 35.56 0)
+			(at 39.37 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8693,7 +9104,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 53.34 35.56 0)
+			(at 39.37 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8716,41 +9127,38 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 43.18 49.53 0)
+		(lib_id "Device:R_US")
+		(at 107.95 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48e24856-c9c7-4e5e-b90a-bc0300531427")
-		(property "Reference" "H10"
-			(at 45.72 46.9899 0)
+		(uuid "46b7a3fb-b000-4c50-be7e-6d3338d0372a")
+		(property "Reference" "R8"
+			(at 102.87 39.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "M2"
-			(at 45.72 49.5299 0)
+		(property "Value" "249k"
+			(at 107.95 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 43.18 49.53 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.204 40.894 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,7 +9169,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 49.53 0)
+			(at 107.95 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "27d158de-06be-4357-bafd-0cd2ff86b779")
+		)
+		(pin "1"
+			(uuid "d19e5f7c-fabc-4e1a-90c5-f5a82695201d")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 27.94 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48e24856-c9c7-4e5e-b90a-bc0300531427")
+		(property "Reference" "H10"
+			(at 30.48 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 30.48 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
+			(at 27.94 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,7 +9262,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 43.18 49.53 0)
+			(at 27.94 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8796,7 +9286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 80.01 0)
+		(at 46.99 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8807,7 +9297,7 @@
 		(fields_autoplaced yes)
 		(uuid "48e580e5-91b9-43f0-88d3-4218c5101378")
 		(property "Reference" "#PWR024"
-			(at 62.23 86.36 0)
+			(at 46.99 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +9308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 85.09 0)
+			(at 46.99 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8828,7 +9318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 80.01 0)
+			(at 46.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8839,7 +9329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 80.01 0)
+			(at 46.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8850,7 +9340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 80.01 0)
+			(at 46.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8874,7 +9364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 52.07 0)
+		(at 67.31 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8885,7 +9375,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c6512a-ece4-4621-8bda-315e456c9096")
 		(property "Reference" "#PWR015"
-			(at 91.44 58.42 0)
+			(at 67.31 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8896,7 +9386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 57.15 0)
+			(at 67.31 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8906,7 +9396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 52.07 0)
+			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8917,7 +9407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 52.07 0)
+			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8928,7 +9418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 52.07 0)
+			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,7 +9882,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 34.29 49.53 0)
+		(at 19.05 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9403,7 +9893,7 @@
 		(fields_autoplaced yes)
 		(uuid "53cf9662-cd3d-415d-a46e-ea0b756b35b3")
 		(property "Reference" "H9"
-			(at 36.83 46.9899 0)
+			(at 21.59 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9414,7 +9904,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 36.83 49.5299 0)
+			(at 21.59 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9425,7 +9915,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 34.29 49.53 0)
+			(at 19.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +9926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 49.53 0)
+			(at 19.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9447,7 +9937,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 34.29 49.53 0)
+			(at 19.05 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9471,7 +9961,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 35.56 0)
+		(at 74.93 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9482,7 +9972,7 @@
 		(fields_autoplaced yes)
 		(uuid "55b9a278-405a-47db-9d33-57340e50f208")
 		(property "Reference" "H8"
-			(at 102.87 33.0199 0)
+			(at 77.47 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9493,7 +9983,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 102.87 35.5599 0)
+			(at 77.47 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9504,7 +9994,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 100.33 35.56 0)
+			(at 74.93 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9515,7 +10005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 35.56 0)
+			(at 74.93 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9526,7 +10016,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 100.33 35.56 0)
+			(at 74.93 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9550,7 +10040,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 52.07 0)
+		(at 48.26 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9561,7 +10051,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b42736d-b988-46bc-9ff7-6cf99b2f165a")
 		(property "Reference" "#PWR013"
-			(at 72.39 58.42 0)
+			(at 48.26 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9572,7 +10062,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 57.15 0)
+			(at 48.26 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9582,7 +10072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 52.07 0)
+			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9593,7 +10083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 52.07 0)
+			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +10094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 52.07 0)
+			(at 48.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +10363,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 77.47 0)
+		(at 66.04 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9884,7 +10374,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a38613b-7b9d-4b00-90df-7734af599fce")
 		(property "Reference" "H30"
-			(at 93.98 74.9299 0)
+			(at 68.58 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9895,7 +10385,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 93.98 77.4699 0)
+			(at 68.58 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9906,7 +10396,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 91.44 77.47 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9917,7 +10407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 77.47 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9928,7 +10418,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 91.44 77.47 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9952,85 +10442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b4223d2-d45f-449a-bc76-d1b8030aca22")
-		(property "Reference" "#PWR012"
-			(at 62.23 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88afcef5-a754-4935-a573-1c3b839f66c8")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 80.01 0)
+		(at 27.94 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10041,7 +10453,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b575d34-3747-482a-98e0-fa61d33b236a")
 		(property "Reference" "#PWR020"
-			(at 43.18 86.36 0)
+			(at 27.94 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +10464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 85.09 0)
+			(at 27.94 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10062,7 +10474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 80.01 0)
+			(at 27.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10073,7 +10485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 80.01 0)
+			(at 27.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10084,7 +10496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 80.01 0)
+			(at 27.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10108,7 +10520,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 38.1 0)
+		(at 48.26 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10119,7 +10531,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b6199aa-7d5c-4d51-a63e-8ee56c8b4733")
 		(property "Reference" "#PWR04"
-			(at 62.23 44.45 0)
+			(at 48.26 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10130,7 +10542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 43.18 0)
+			(at 48.26 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10140,7 +10552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 38.1 0)
+			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10151,7 +10563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 38.1 0)
+			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10162,7 +10574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 38.1 0)
+			(at 48.26 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10179,6 +10591,85 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 106.68 29.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d4cda44-f247-4923-a636-f620dff36c6a")
+		(property "Reference" "R10"
+			(at 106.68 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 101.092 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.934 28.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 106.68 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdb52cad-c7bd-40a8-a847-faeb0b315011")
+		)
+		(pin "2"
+			(uuid "8db3262e-4cc7-4232-a87b-492be8376ba1")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10265,7 +10756,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 80.01 0)
+		(at 66.04 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10276,7 +10767,7 @@
 		(fields_autoplaced yes)
 		(uuid "73ce3c08-c86a-4e76-8762-e007e6b860d3")
 		(property "Reference" "#PWR030"
-			(at 91.44 86.36 0)
+			(at 66.04 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +10778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 85.09 0)
+			(at 66.04 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10297,7 +10788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 80.01 0)
+			(at 66.04 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10308,7 +10799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 80.01 0)
+			(at 66.04 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10319,7 +10810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 80.01 0)
+			(at 66.04 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10343,7 +10834,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 38.1 0)
+		(at 66.04 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10354,7 +10845,7 @@
 		(fields_autoplaced yes)
 		(uuid "73cf504e-ac4e-49d3-8028-093680aa33e2")
 		(property "Reference" "#PWR07"
-			(at 91.44 44.45 0)
+			(at 66.04 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,7 +10856,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 43.18 0)
+			(at 66.04 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10375,7 +10866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 38.1 0)
+			(at 66.04 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10386,7 +10877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 38.1 0)
+			(at 66.04 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10397,7 +10888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 38.1 0)
+			(at 66.04 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10421,7 +10912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 38.1 0)
+		(at 74.93 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10432,7 +10923,7 @@
 		(fields_autoplaced yes)
 		(uuid "74944bd6-b38c-4f8e-b2e5-c76b52cbbdb6")
 		(property "Reference" "#PWR08"
-			(at 100.33 44.45 0)
+			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10443,7 +10934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 43.18 0)
+			(at 74.93 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10453,7 +10944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 38.1 0)
+			(at 74.93 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10464,7 +10955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 38.1 0)
+			(at 74.93 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10475,7 +10966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 38.1 0)
+			(at 74.93 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +11192,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 49.53 0)
+		(at 57.15 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10712,7 +11203,7 @@
 		(fields_autoplaced yes)
 		(uuid "7976da32-7895-4b53-8114-f91cd0b57f8f")
 		(property "Reference" "H14"
-			(at 83.82 46.9899 0)
+			(at 59.69 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10723,7 +11214,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 83.82 49.5299 0)
+			(at 59.69 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10734,7 +11225,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 81.28 49.53 0)
+			(at 57.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10745,7 +11236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 49.53 0)
+			(at 57.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +11247,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 49.53 0)
+			(at 57.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10780,7 +11271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 66.04 0)
+		(at 38.1 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10791,7 +11282,7 @@
 		(fields_autoplaced yes)
 		(uuid "79f67764-fd45-4aab-b780-2631290e1c80")
 		(property "Reference" "#PWR023"
-			(at 62.23 72.39 0)
+			(at 38.1 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10802,7 +11293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 71.12 0)
+			(at 38.1 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10812,7 +11303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 66.04 0)
+			(at 38.1 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10823,7 +11314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 66.04 0)
+			(at 38.1 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10834,7 +11325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 66.04 0)
+			(at 38.1 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10858,7 +11349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 52.07 0)
+		(at 19.05 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10869,7 +11360,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bcc1239-0899-4d22-b98f-8309078e10c7")
 		(property "Reference" "#PWR09"
-			(at 34.29 58.42 0)
+			(at 19.05 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10880,7 +11371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 57.15 0)
+			(at 19.05 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10890,7 +11381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 52.07 0)
+			(at 19.05 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10901,7 +11392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 52.07 0)
+			(at 19.05 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10912,7 +11403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 52.07 0)
+			(at 19.05 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10936,7 +11427,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 49.53 0)
+		(at 67.31 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10947,7 +11438,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c06cf38-3cbc-4d7f-99f5-3a77aaf21dfc")
 		(property "Reference" "H15"
-			(at 93.98 46.9899 0)
+			(at 69.85 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10958,7 +11449,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 93.98 49.5299 0)
+			(at 69.85 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10969,7 +11460,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 91.44 49.53 0)
+			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10980,7 +11471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 49.53 0)
+			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10991,7 +11482,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 91.44 49.53 0)
+			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11015,7 +11506,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 77.47 0)
+		(at 74.93 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11026,7 +11517,7 @@
 		(fields_autoplaced yes)
 		(uuid "7df5e2dd-3c5b-4ac4-a2a8-8346e1788e70")
 		(property "Reference" "H32"
-			(at 102.87 74.9299 0)
+			(at 77.47 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11037,7 +11528,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 102.87 77.4699 0)
+			(at 77.47 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11048,7 +11539,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 100.33 77.47 0)
+			(at 74.93 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11059,7 +11550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 77.47 0)
+			(at 74.93 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11070,7 +11561,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 100.33 77.47 0)
+			(at 74.93 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11182,7 +11673,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 72.39 77.47 0)
+		(at 116.84 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11193,7 +11684,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e3ad958-c2ea-4fe5-a565-5ffe62940c8d")
 		(property "Reference" "H26"
-			(at 74.93 74.9299 0)
+			(at 119.38 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11204,7 +11695,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 74.93 77.4699 0)
+			(at 119.38 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11215,7 +11706,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 72.39 77.47 0)
+			(at 116.84 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11226,7 +11717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 77.47 0)
+			(at 116.84 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11237,7 +11728,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 72.39 77.47 0)
+			(at 116.84 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11261,7 +11752,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 34.29 63.5 0)
+		(at 19.05 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11272,7 +11763,7 @@
 		(fields_autoplaced yes)
 		(uuid "807e6230-64e7-44a1-8bda-12cd463165fe")
 		(property "Reference" "H17"
-			(at 36.83 60.9599 0)
+			(at 21.59 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11283,7 +11774,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 36.83 63.4999 0)
+			(at 21.59 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11294,7 +11785,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 34.29 63.5 0)
+			(at 19.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11305,7 +11796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 63.5 0)
+			(at 19.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11316,7 +11807,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 34.29 63.5 0)
+			(at 19.05 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11418,7 +11909,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 72.39 49.53 0)
+		(at 48.26 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11429,7 +11920,7 @@
 		(fields_autoplaced yes)
 		(uuid "82116178-0194-4e7e-bb48-32eb0aaf2ebb")
 		(property "Reference" "H13"
-			(at 74.93 46.9899 0)
+			(at 50.8 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11440,7 +11931,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 74.93 49.5299 0)
+			(at 50.8 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11451,7 +11942,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 72.39 49.53 0)
+			(at 48.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11462,7 +11953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 49.53 0)
+			(at 48.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +11964,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 72.39 49.53 0)
+			(at 48.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,84 +11981,6 @@
 			(project "turnstileUHF"
 				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
 					(reference "H13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "822a9c47-5a31-400f-bc10-4d727f2a250c")
-		(property "Reference" "#PWR026"
-			(at 72.39 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d23317e-6df8-4292-912f-6cbe16d99b96")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11730,41 +12143,39 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 35.56 0)
+		(lib_id "Device:R_US")
+		(at 120.65 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83fb64fe-3cc8-4a8f-8b7d-5b7e93ec0c2f")
-		(property "Reference" "H4"
-			(at 64.77 33.0199 0)
+		(uuid "8328a72f-4167-4c70-b66d-8219326fd173")
+		(property "Reference" "R6"
+			(at 120.65 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "M2"
-			(at 64.77 35.5599 0)
+		(property "Value" "1M"
+			(at 120.65 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 62.23 35.56 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 120.904 56.134 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11775,7 +12186,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 35.56 0)
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19a4b234-79c0-48e7-98db-da4a8b14030d")
+		)
+		(pin "2"
+			(uuid "b121d223-7a41-48e7-aed8-42020ca0d2bb")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 48.26 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83fb64fe-3cc8-4a8f-8b7d-5b7e93ec0c2f")
+		(property "Reference" "H4"
+			(at 50.8 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 50.8 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
+			(at 48.26 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11786,7 +12279,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 62.23 35.56 0)
+			(at 48.26 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11810,7 +12303,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 53.34 49.53 0)
+		(at 38.1 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11821,7 +12314,7 @@
 		(fields_autoplaced yes)
 		(uuid "850471fa-63e6-4b8c-bf9c-2748983b4cce")
 		(property "Reference" "H11"
-			(at 55.88 46.9899 0)
+			(at 40.64 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11832,7 +12325,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 55.88 49.5299 0)
+			(at 40.64 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11843,7 +12336,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 53.34 49.53 0)
+			(at 38.1 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +12347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 49.53 0)
+			(at 38.1 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11865,7 +12358,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 53.34 49.53 0)
+			(at 38.1 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12053,7 +12546,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 77.47 0)
+		(at 46.99 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12064,7 +12557,7 @@
 		(fields_autoplaced yes)
 		(uuid "87342053-9bc2-4dfc-836d-67c791380b29")
 		(property "Reference" "H24"
-			(at 64.77 74.9299 0)
+			(at 49.53 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12075,7 +12568,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 64.77 77.4699 0)
+			(at 49.53 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12086,7 +12579,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 62.23 77.47 0)
+			(at 46.99 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12097,7 +12590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 77.47 0)
+			(at 46.99 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +12601,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 62.23 77.47 0)
+			(at 46.99 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12214,7 +12707,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 43.18 77.47 0)
+		(at 27.94 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12225,7 +12718,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e260ac9-dc76-4dcf-bfbe-124469d0a3e2")
 		(property "Reference" "H20"
-			(at 45.72 74.9299 0)
+			(at 30.48 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12236,7 +12729,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 45.72 77.4699 0)
+			(at 30.48 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12247,7 +12740,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 43.18 77.47 0)
+			(at 27.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12258,7 +12751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 77.47 0)
+			(at 27.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12762,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 43.18 77.47 0)
+			(at 27.94 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12293,7 +12786,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 38.1 0)
+		(at 39.37 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12304,7 +12797,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f30485f-2752-40bb-900f-ba362207c93f")
 		(property "Reference" "#PWR03"
-			(at 53.34 44.45 0)
+			(at 39.37 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12315,7 +12808,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 43.18 0)
+			(at 39.37 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12325,7 +12818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 38.1 0)
+			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12336,7 +12829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 38.1 0)
+			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12347,7 +12840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 38.1 0)
+			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12371,7 +12864,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 43.18 35.56 0)
+		(at 29.21 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12382,7 +12875,7 @@
 		(fields_autoplaced yes)
 		(uuid "90e86399-698b-4c91-9d9f-a0f402b890a8")
 		(property "Reference" "H2"
-			(at 45.72 33.0199 0)
+			(at 31.75 20.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12393,7 +12886,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 45.72 35.5599 0)
+			(at 31.75 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12404,7 +12897,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 43.18 35.56 0)
+			(at 29.21 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12415,7 +12908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 35.56 0)
+			(at 29.21 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12426,7 +12919,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 43.18 35.56 0)
+			(at 29.21 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12450,7 +12943,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 80.01 0)
+		(at 55.88 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12461,7 +12954,7 @@
 		(fields_autoplaced yes)
 		(uuid "95b28be8-e557-4bf2-8da9-4e5b04bec9db")
 		(property "Reference" "#PWR028"
-			(at 81.28 86.36 0)
+			(at 55.88 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12472,7 +12965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 85.09 0)
+			(at 55.88 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12482,7 +12975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 80.01 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12493,7 +12986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 80.01 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12504,7 +12997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 80.01 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12528,7 +13021,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 77.47 0)
+		(at 55.88 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12539,7 +13032,7 @@
 		(fields_autoplaced yes)
 		(uuid "993528f3-0af5-4eae-acbc-c809ce10d8c1")
 		(property "Reference" "H28"
-			(at 83.82 74.9299 0)
+			(at 58.42 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12550,7 +13043,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 83.82 77.4699 0)
+			(at 58.42 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12561,7 +13054,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 81.28 77.47 0)
+			(at 55.88 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12572,7 +13065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 77.47 0)
+			(at 55.88 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12583,7 +13076,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 77.47 0)
+			(at 55.88 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12686,7 +13179,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 38.1 0)
+		(at 55.88 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12697,7 +13190,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ccb7be1-efd5-4fae-9f83-5394d65a8bfa")
 		(property "Reference" "#PWR06"
-			(at 81.28 44.45 0)
+			(at 55.88 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12708,7 +13201,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 43.18 0)
+			(at 55.88 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12718,7 +13211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 38.1 0)
+			(at 55.88 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12729,7 +13222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 38.1 0)
+			(at 55.88 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12740,7 +13233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 38.1 0)
+			(at 55.88 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12763,41 +13256,38 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 53.34 63.5 0)
+		(lib_id "Device:R_US")
+		(at 107.95 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ff5eee4-32f2-4f9a-be05-6e2d1941c04f")
-		(property "Reference" "H21"
-			(at 55.88 60.9599 0)
+		(uuid "9cd0ac9c-74dc-4ede-9cd6-a0e881764ac6")
+		(property "Reference" "R9"
+			(at 102.87 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "M2"
-			(at 55.88 63.4999 0)
+		(property "Value" "124k"
+			(at 108.458 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 53.34 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.204 47.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12808,7 +13298,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 63.5 0)
+			(at 107.95 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "091a6c05-15f1-467f-9f54-eaee4f6fa53d")
+		)
+		(pin "2"
+			(uuid "465844d4-a058-4eeb-abd7-9dde890f2f93")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff5eee4-32f2-4f9a-be05-6e2d1941c04f")
+		(property "Reference" "H21"
+			(at 31.75 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 31.75 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
+			(at 29.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12819,7 +13391,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 53.34 63.5 0)
+			(at 29.21 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12843,7 +13415,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 66.04 0)
+		(at 29.21 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12854,7 +13426,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1e6b50b-1364-4b3b-934d-ed67aad03c91")
 		(property "Reference" "#PWR021"
-			(at 53.34 72.39 0)
+			(at 29.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12865,7 +13437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 71.12 0)
+			(at 29.21 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12875,7 +13447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 66.04 0)
+			(at 29.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12886,7 +13458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 66.04 0)
+			(at 29.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12897,7 +13469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 66.04 0)
+			(at 29.21 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13089,6 +13661,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad44633d-7733-4217-b1a2-cb6777965d1a")
+		(property "Reference" "#PWR05"
+			(at 128.27 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18fa8031-b780-41d7-96e7-3e1b3991376a")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 121.92 0)
 		(unit 1)
@@ -13252,7 +13902,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 49.53 0)
+		(at 76.2 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13263,7 +13913,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4525d62-f6b8-4c82-a745-9dcf0bebc767")
 		(property "Reference" "H16"
-			(at 102.87 46.9899 0)
+			(at 78.74 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13274,7 +13924,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 102.87 49.5299 0)
+			(at 78.74 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13285,7 +13935,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 100.33 49.53 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13296,7 +13946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 49.53 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13307,7 +13957,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 100.33 49.53 0)
+			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13331,7 +13981,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 38.1 0)
+		(at 20.32 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13342,7 +13992,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4d4b80a-732e-400d-931a-b50dcef1c47c")
 		(property "Reference" "#PWR01"
-			(at 34.29 44.45 0)
+			(at 20.32 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13353,7 +14003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 43.18 0)
+			(at 20.32 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13363,7 +14013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 38.1 0)
+			(at 20.32 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13374,7 +14024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 38.1 0)
+			(at 20.32 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,7 +14035,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 38.1 0)
+			(at 20.32 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13409,7 +14059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 66.04 0)
+		(at 67.31 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13420,7 +14070,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7655d82-f20b-46a3-8576-320c4d702810")
 		(property "Reference" "#PWR029"
-			(at 91.44 72.39 0)
+			(at 67.31 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13431,7 +14081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 71.12 0)
+			(at 67.31 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13441,7 +14091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 66.04 0)
+			(at 67.31 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13452,7 +14102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 66.04 0)
+			(at 67.31 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13463,7 +14113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 66.04 0)
+			(at 67.31 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13564,7 +14214,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 53.34 77.47 0)
+		(at 38.1 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13575,7 +14225,7 @@
 		(fields_autoplaced yes)
 		(uuid "baeb9491-6a28-43d9-aa3f-7fec77e8e883")
 		(property "Reference" "H22"
-			(at 55.88 74.9299 0)
+			(at 40.64 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13586,7 +14236,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 55.88 77.4699 0)
+			(at 40.64 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13597,7 +14247,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 53.34 77.47 0)
+			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13608,7 +14258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 77.47 0)
+			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13619,7 +14269,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 53.34 77.47 0)
+			(at 38.1 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13809,7 +14459,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 80.01 0)
+		(at 19.05 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13820,7 +14470,7 @@
 		(fields_autoplaced yes)
 		(uuid "be5dda20-58d5-4a9c-8e25-616cd22fc68f")
 		(property "Reference" "#PWR018"
-			(at 34.29 86.36 0)
+			(at 19.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13831,7 +14481,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 85.09 0)
+			(at 19.05 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13841,7 +14491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 80.01 0)
+			(at 19.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13852,7 +14502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 80.01 0)
+			(at 19.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13863,7 +14513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 80.01 0)
+			(at 19.05 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13887,7 +14537,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 38.1 0)
+		(at 29.21 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13898,7 +14548,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0664492-4ed3-4b36-aab7-2c20437649f6")
 		(property "Reference" "#PWR02"
-			(at 43.18 44.45 0)
+			(at 29.21 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13909,7 +14559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 43.18 0)
+			(at 29.21 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13919,7 +14569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 38.1 0)
+			(at 29.21 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13930,7 +14580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 38.1 0)
+			(at 29.21 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13941,7 +14591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 38.1 0)
+			(at 29.21 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14125,7 +14775,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 66.04 0)
+		(at 48.26 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14136,7 +14786,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8dae261-caa4-4b30-898f-66ba94663cc5")
 		(property "Reference" "#PWR025"
-			(at 72.39 72.39 0)
+			(at 48.26 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14147,7 +14797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 71.12 0)
+			(at 48.26 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14157,7 +14807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 66.04 0)
+			(at 48.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,7 +14818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 66.04 0)
+			(at 48.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14179,7 +14829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 66.04 0)
+			(at 48.26 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14362,7 +15012,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 72.39 63.5 0)
+		(at 48.26 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14373,7 +15023,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2acfd1c-2621-4be5-b384-1db05643a4e9")
 		(property "Reference" "H25"
-			(at 74.93 60.9599 0)
+			(at 50.8 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14384,7 +15034,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 74.93 63.4999 0)
+			(at 50.8 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14395,7 +15045,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 72.39 63.5 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14406,7 +15056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 63.5 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14417,7 +15067,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 72.39 63.5 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14597,7 +15247,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 72.39 35.56 0)
+		(at 99.06 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14608,7 +15258,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5e6441c-bcbf-4342-8b16-5af0e7b9396e")
 		(property "Reference" "H5"
-			(at 74.93 33.0199 0)
+			(at 101.6 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14619,7 +15269,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 74.93 35.5599 0)
+			(at 101.6 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14630,7 +15280,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 72.39 35.56 0)
+			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14641,7 +15291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 35.56 0)
+			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14652,7 +15302,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 72.39 35.56 0)
+			(at 99.06 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14676,7 +15326,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 52.07 0)
+		(at 57.15 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14687,7 +15337,7 @@
 		(fields_autoplaced yes)
 		(uuid "da62e854-e54b-4dd0-8bea-9b3fe416f42e")
 		(property "Reference" "#PWR014"
-			(at 81.28 58.42 0)
+			(at 57.15 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14698,7 +15348,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 57.15 0)
+			(at 57.15 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14708,7 +15358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 52.07 0)
+			(at 57.15 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14719,7 +15369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 52.07 0)
+			(at 57.15 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14730,7 +15380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 52.07 0)
+			(at 57.15 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14754,7 +15404,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 52.07 0)
+		(at 76.2 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14765,7 +15415,7 @@
 		(fields_autoplaced yes)
 		(uuid "da72eb00-b3cd-4080-8253-4ad64e9e951c")
 		(property "Reference" "#PWR016"
-			(at 100.33 58.42 0)
+			(at 76.2 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14776,7 +15426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 57.15 0)
+			(at 76.2 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14786,7 +15436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 52.07 0)
+			(at 76.2 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14797,7 +15447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 52.07 0)
+			(at 76.2 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14808,7 +15458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 52.07 0)
+			(at 76.2 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14831,86 +15481,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da9ad783-659e-483f-98f8-eb786127d290")
-		(property "Reference" "#PWR019"
-			(at 43.18 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7048bd59-f557-485a-8d19-a0fae447d123")
-		)
-		(instances
-			(project "turnstileUHF"
-				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 100.33 63.5 0)
+		(at 76.2 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14921,7 +15493,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc73406b-8f3d-4361-acf6-c99c7b8a5e4b")
 		(property "Reference" "H31"
-			(at 102.87 60.9599 0)
+			(at 78.74 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14932,7 +15504,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 102.87 63.4999 0)
+			(at 78.74 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14943,7 +15515,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 100.33 63.5 0)
+			(at 76.2 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14954,7 +15526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 63.5 0)
+			(at 76.2 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14965,7 +15537,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 100.33 63.5 0)
+			(at 76.2 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14989,7 +15561,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 63.5 0)
+		(at 67.31 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15000,7 +15572,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfd12732-7506-425b-bdcb-551fabad753d")
 		(property "Reference" "H29"
-			(at 93.98 60.9599 0)
+			(at 69.85 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15011,7 +15583,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 93.98 63.4999 0)
+			(at 69.85 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15022,7 +15594,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 91.44 63.5 0)
+			(at 67.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15033,7 +15605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 63.5 0)
+			(at 67.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15044,7 +15616,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 91.44 63.5 0)
+			(at 67.31 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15068,7 +15640,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 63.5 0)
+		(at 38.1 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15079,7 +15651,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4a06e74-ce0f-46ec-b10b-ecf7308f944f")
 		(property "Reference" "H23"
-			(at 64.77 60.9599 0)
+			(at 40.64 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15090,7 +15662,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 64.77 63.4999 0)
+			(at 40.64 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15101,7 +15673,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 62.23 63.5 0)
+			(at 38.1 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15112,7 +15684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 63.5 0)
+			(at 38.1 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15123,7 +15695,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 62.23 63.5 0)
+			(at 38.1 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15545,7 +16117,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 63.5 0)
+		(at 57.15 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15556,7 +16128,7 @@
 		(fields_autoplaced yes)
 		(uuid "f733021a-7ac6-4c07-adb7-2a6dedcdd93f")
 		(property "Reference" "H27"
-			(at 83.82 60.9599 0)
+			(at 59.69 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15567,7 +16139,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 83.82 63.4999 0)
+			(at 59.69 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15578,7 +16150,7 @@
 			)
 		)
 		(property "Footprint" "inspireFly:MountingHole_2mm_custom"
-			(at 81.28 63.5 0)
+			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15589,7 +16161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 63.5 0)
+			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15600,7 +16172,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 63.5 0)
+			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
