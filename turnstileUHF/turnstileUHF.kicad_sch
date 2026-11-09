@@ -3431,7 +3431,7 @@
 			)
 		)
 	)
-	(global_label "FET2"
+	(global_label "FET1"
 		(shape input)
 		(at 100.33 127 0)
 		(fields_autoplaced yes)
@@ -3599,7 +3599,7 @@
 			)
 		)
 	)
-	(global_label "FET1"
+	(global_label "FET2"
 		(shape input)
 		(at 100.33 124.46 0)
 		(fields_autoplaced yes)
@@ -5064,7 +5064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "inspireFly:Antenna_Tape_pad"
 			(at 196.85 136.05 0)
 			(hide yes)
 			(show_name no)
@@ -6389,6 +6389,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 252.73 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e498598-b082-4e39-8fdf-35e6b4a69e1e")
+		(property "Reference" "#PWR041"
+			(at 252.73 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1b66ee3-96d6-4de7-aaed-8c7e3064991f")
+		)
+		(instances
+			(project "turnstileUHF"
+				(path "/bb80e4f3-3333-4302-bfd1-5248f999de56"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 34.29 49.53 0)
 		(unit 1)
@@ -7057,7 +7135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "inspireFly:Antenna_Tape_pad"
 			(at 255.27 134.78 0)
 			(hide yes)
 			(show_name no)
@@ -8594,7 +8672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Coilcraft_MA5532-AE_RFID"
+		(property "Footprint" "inspireFly:Antenna_Tape_pad"
 			(at 172.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10502,7 +10580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "inspireFly:Antenna_Tape_pad"
 			(at 228.6 136.05 0)
 			(hide yes)
 			(show_name no)
