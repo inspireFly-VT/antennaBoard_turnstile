@@ -1,0 +1,22 @@
+"","Sourced","Placed","References","Value","Footprint","Quantity"
+1,"","","C2, C3, C4, C5","100 nF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",4
+2,"","","C1","10 nF","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",1
+3,"","","R1, R3","1k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",2
+4,"","","R6, R10","1M","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",2
+5,"","","R2","64.9k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",1
+6,"","","R7","499k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",1
+7,"","","R8","249k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",1
+8,"","","R9","124k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",1
+9,"","","R11","100k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",1
+10,"","","U1","74HCT238D","SOT109-1_NXP",1
+11,"","","U2","ADS1015IDGSR","SOP50P490X110-10N",1
+12,"","","U3","OPA333AIDR","D8",1
+13,"","","U4","TPD1E05U06DYA","D_SOD-523",1
+14,"","","Q1, Q2, Q3, Q4, Q8","2N7002","SOT-23",5
+15,"","","ANT1, ANT2, ANT3, ANT4","Antenna","Antenna_Tape_pad",4
+16,"","","Burn1, Burn2, Burn3, Burn4",10,"R_2512_6332Metric_Pad1.40x3.35mm_HandSolder",4
+17,"","","Q5, Q6, Q7, Q9","AO3401A","SOT-23",4
+18,"","","R_Pulldown1, R_Pulldown2, R_Pulldown3, R_Pulldown4","10k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",4
+19,"","","J1","Conn_01x05","PinSocket_1x05_P2.54mm_Vertical",1
+20,"","","J2","Conn_01x04_Pin","PinSocket_1x04_P2.54mm_Vertical",1
+21,"","","J5","RFPC-SMA28-F","GRADCONN_RFPC-SMA28-F",1
